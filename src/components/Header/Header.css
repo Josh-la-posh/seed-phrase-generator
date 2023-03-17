@@ -1,0 +1,17 @@
+.header {
+    height: 100px;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: aqua;
+    padding: 0 2rem;
+
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 32px;
+}
