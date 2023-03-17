@@ -2,7 +2,7 @@ import { ArrayOfWords } from "../data";
 
 // Generate a random seed phrase of a given length
 
- function GenerateSeedPhrase(length) {
+ export default function GenerateSeedPhrase(length) {
 
     let seedPhrase = '';
     for (let i = 0; i < length; i++) {
