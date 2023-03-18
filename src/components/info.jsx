@@ -14,9 +14,3 @@ import { ArrayOfWords } from "../data";
 
   // Outputs a random seed phrase with 12 words
   // console.log(GenerateSeedPhrase(12));
-
-  const seed = GenerateSeedPhrase(12);
-  const phrase = seed.split(' ');
-  const result = phrase.join(', ');
-  export const word = result.split(', ');
-
