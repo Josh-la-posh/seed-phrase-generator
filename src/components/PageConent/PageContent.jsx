@@ -42,6 +42,17 @@ export default function PageContent() {
             );
           })}
         </div>)}
+
+
+        {(<div className="">
+          {word.map((phrase, index) => {
+            return (
+              !reload && <span>{phrase} </span>
+            );
+          })}
+        </div>)}
+<br /><br />
+
         <button className="seed__btn" onClick={generatePhrase}>
           Generate
         </button>
